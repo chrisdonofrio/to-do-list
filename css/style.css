@@ -1,0 +1,99 @@
+* {
+	background-color: silver;
+	font-family: Helvetica;
+	
+}
+
+h1 {
+	color: #0099CC;
+	-webkit-text-stroke: 1.5px silver;
+	font-size: 64px;
+	background-color: gray;
+}
+
+p {
+	display: inline;
+	margin:20px;
+	text-transform: lowercase;
+	text-decoration: underline;
+	font-size: 13px;
+}
+
+
+.col-md-12 {
+	background-color: gray;
+}
+
+.form-group {
+	margin: 50px;
+}
+
+/*GLYPHICONS*/
+
+.glyphicon-arrow-down {
+	background-color: gray;
+	font-size: 36px;
+	margin: 10px;
+}
+
+.glyphicon-ok {
+	background-color: white;
+	color: black;
+}
+
+.glyphicon-remove {
+	background-color: black;
+}
+
+.strikethrough {
+	text-decoration: line-through;
+}
+
+/*BUTTONS*/
+
+button:focus {
+	background-color: aqua !important;
+}
+
+button:visited {
+	background-color: black !important;
+}
+
+button:hover {
+	background-color: #0099CC !important;
+	border-color: gray !important;
+}
+
+.btn-primary {
+	background-color: white;
+	border-color: white;
+}
+
+.btn-danger {
+	background-color: black;
+	border-color: black;
+}
+
+.btn-primary, .btn-danger {
+	padding: 5px 5px;
+  	font-size: 12px;
+  	line-height: 1.5;
+  	border-radius: 0px;
+}
+
+.btn-success {
+	background-color: gray;
+	border-color: #0099CC;
+	font-size: 11px;
+}
+
+/*FORMS*/
+
+input[type="text"] {
+    font-size: 11px;
+}
+
+::-webkit-input-placeholder {
+
+ 	font-size: 11px;
+}
